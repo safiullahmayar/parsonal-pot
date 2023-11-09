@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(4, 4, 32);
+}
+.nav-link {
+    color: white;
+}
+.navbar 
+{
+    box-shadow: 10px 10px 20px rgb(86, 89, 159);
+}
+.img-fluid {
+    width: 209px;
+    height: 200px;
+    border-radius: 59%;
+    box-shadow: 2px 1px 70px white;
+}
+.card-img
+{
+    overflow-y: scroll;
+}
+
+.card
+{
+    border: rgb(233, 220, 203) solid ;
+    transition: all 0.8s ease;
+    background-color: rgb(27, 25, 25);
+    color: white;
+}
+.card:hover
+{
+    margin-bottom: 4%;
+    transform: scale(1.1);
+}
+@media screen and (max-width:768px) {
+    #img {
+        display: none;
+        margin: 0;
+    }
+    img.img-fluid.ms-lg-5 {
+        margin-bottom: 0%;
+        padding-bottom: 0;
+        width: 100%;
+        height: auto;
+        border-radius: 38px;
+    }
+}
